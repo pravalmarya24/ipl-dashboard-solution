@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.home-team-card-list {
+  list-style-type: none;
+}
+
+.team-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 150px;
+  width: 200px;
+}
