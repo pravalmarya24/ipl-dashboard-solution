@@ -13,14 +13,14 @@ class Home extends Component {
   getTeamCardList = async () => {
     const response = await fetch('https://apis.ccbp.in/ipl')
     const data = await response.json()
-    console.log(data.teams)
-    const formattedData = data.teams.map(eachItem => ({
-      name: eachItem.name,
-      id: eachItem.id,
-      teamImageUrl: eachItem.team_image_url,
+    const team = data.teams
+    const formattedData = team.map(each => ({
+      name: each.name,
+      id: each.id,
+      teamImageUrl: each.team_image_url,
     }))
+
     this.setState({teamCardList: formattedData})
-    console.log(formattedData)
   }
 
   render() {
