@@ -33,17 +33,21 @@ class Home extends Component {
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
-          <div className="ipl-logo-container">
-            <img
-              src="https://assets.ccbp.in/frontend/react-js/ipl-logo-img.png"
-              alt="ipl logo"
-              className="ipl-logo-size"
-            />
-            <h1 className="ipl-dashboard-heading">IPL Dashboard</h1>
+          <div className="ipl-logo-card-list-container">
+            <div className="ipl-logo-container">
+              <img
+                src="https://assets.ccbp.in/frontend/react-js/ipl-logo-img.png"
+                alt="ipl logo"
+                className="ipl-logo-size"
+              />
+              <h1 className="ipl-dashboard-heading">IPL Dashboard</h1>
+            </div>
             <ul className="team-card-unordered-list">
-              {teamCardList.map(eachListItem => (
-                <TeamCard cardList={eachListItem} key={eachListItem.id} />
-              ))}
+              <div className="flex-wrap-container">
+                {teamCardList.map(eachListItem => (
+                  <TeamCard cardList={eachListItem} key={eachListItem.id} />
+                ))}
+              </div>
             </ul>
           </div>
         )}

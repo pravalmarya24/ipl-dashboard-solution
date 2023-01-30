@@ -1,1 +1,18 @@
 /* Write your CSS here */
+.team-matches-bg-container {
+  background-color: burlywood;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-banner-image-container {
+  width: 1100px;
+  height: 550px;
+}
+
+.team-banner-img-size {
+  width: 100%;
+}
