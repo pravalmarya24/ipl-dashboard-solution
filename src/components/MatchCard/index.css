@@ -1,1 +1,44 @@
 /* Write your CSS here */
+.match-list {
+  list-style-type: none;
+}
+
+.matches-card-container {
+  height: 500px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0f172a;
+  border-radius: 14px;
+  padding: 20px;
+  margin: 15px;
+}
+
+.match-card-logo {
+  height: 190px;
+  width: 185px;
+}
+
+.team-heading {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.result-para {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.match-status-para {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 400;
+  color: red;
+}

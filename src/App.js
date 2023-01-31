@@ -6,8 +6,8 @@ import TeamMatches from './components/TeamMatches'
 const App = () => (
   <>
     <Switch>
-      <Route exact path="/" component={TeamMatches} />
-      <Home />
+      <Route exact path="/" component={Home} />
+      <Route path="/team-matches/:id" component={TeamMatches} />
     </Switch>
   </>
 )

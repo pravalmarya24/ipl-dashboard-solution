@@ -1,18 +1,115 @@
-/* Write your CSS here */
-.team-matches-bg-container {
-  background-color: burlywood;
-  padding: 20px;
+.bg-container {
+  background-color: #a4261d;
+  background-size: cover;
+  height: 100vh;
+  padding: 48px;
+  overflow: scroll;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-.team-banner-image-container {
-  width: 1100px;
-  height: 550px;
+.latest-matches-heading {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-left: 0;
+  padding-left: 0;
+  align-self: flex-start;
+  margin-left: 73px;
 }
 
-.team-banner-img-size {
-  width: 100%;
+.latest-matches-container {
+  border-radius: 14px;
+  border-width: 0;
+  width: 1118px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e293b;
+}
+
+.compete-team-heading {
+  font-family: 'Bree Serif';
+  font-size: 36px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.date {
+  font-family: 'Bree Serif';
+  font-size: 26px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.venu {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.status {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.compete-team-logo {
+  height: 220px;
+  width: 170px;
+}
+
+.innings-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.first-innings-heading {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.innings-para {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.second-innings-heading {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.man-of-the-match-heading {
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.umpires-heading {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.flex-wrap-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1118px;
 }
