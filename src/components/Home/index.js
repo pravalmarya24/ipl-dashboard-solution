@@ -27,13 +27,13 @@ class Home extends Component {
   render() {
     const {teamCardList, isLoader} = this.state
     return (
-      <div className="home-bg-container">
+      <div className="home-bg-container" testid="loader">
         {isLoader ? (
           <div data-testid="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
-          <div className="ipl-logo-card-list-container">
+          <div className="ipl-logo-card-list-container" testid="loader">
             <div className="ipl-logo-container">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/ipl-logo-img.png"
@@ -43,7 +43,7 @@ class Home extends Component {
               <h1 className="ipl-dashboard-heading">IPL Dashboard</h1>
             </div>
             <ul className="team-card-unordered-list">
-              <div className="flex-wrap-container">
+              <div className="flex-wrap-container" data-testid="loader">
                 {teamCardList.map(eachListItem => (
                   <TeamCard cardList={eachListItem} key={eachListItem.id} />
                 ))}

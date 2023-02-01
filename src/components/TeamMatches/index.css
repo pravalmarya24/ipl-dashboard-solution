@@ -34,7 +34,7 @@
 
 .compete-team-heading {
   font-family: 'Bree Serif';
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 400;
   color: #ffffff;
 }
@@ -46,7 +46,7 @@
   color: #ffffff;
 }
 
-.venu {
+.venue {
   font-family: 'Bree Serif';
   font-size: 18px;
   font-weight: 400;
@@ -63,6 +63,7 @@
 .compete-team-logo {
   height: 220px;
   width: 170px;
+  margin-right: 160px;
 }
 
 .innings-details-container {

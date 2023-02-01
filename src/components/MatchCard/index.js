@@ -9,10 +9,10 @@ const MatchCard = props => {
       <div className="matches-card-container">
         <img
           src={competingTeamLogo}
-          alt={competingTeam}
+          alt={`competing team ${competingTeam}`}
           className="match-card-logo"
         />
-        <h1 className="team-heading">{competingTeam}</h1>
+        <p className="team-heading">{competingTeam}</p>
         <p className="result-para">{result}</p>
         <p className="match-status-para">{matchStatus}</p>
       </div>
